@@ -1,0 +1,126 @@
+*{
+  box-sizing: border-box;
+  background-color: rgba(224, 238, 144, 0.966);
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font: poppins;
+}
+
+#main {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(224, 238, 144, 0.966);
+  box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.logo img{
+  height: 80px;
+}
+
+.menu{
+  list-style: none;
+  display: flex;
+}
+
+.menu li a {
+  height: 50px;
+  line-height: 43px;
+  margin: 3px;
+  padding: 0px 22px;
+  display: flex;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: darkblue;
+}
+
+ul{
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.queries {
+  color: darkblue;
+  font-weight: 500;
+  font-size: 0.5cm;
+  border-bottom: 2px solid; 
+}
+
+.image {
+  width: 500px;
+  height: 500px;
+}
+  
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+}
+
+.content {
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  transform: translate(-50% , -50%);
+}
+    
+.main-text h1 {
+  font-size: 1.0cm;
+  color: red;
+  margin: 0px 0px 10px 0px;
+  line-height: 60px;
+}    
+.main-text h2 {
+  color: blue;
+  line-height: 30px;
+}
+
+.main-text h3 {
+  color: black;
+}
+
+
+.main-text p {
+  color: black;
+}
+
+.dashboard-btn {
+  width: 190px;
+  height: 44px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: yellow;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 5px 10px 30px rgba(24, 139, 119, 0.2);
+}
+
+.menu li a:hover {
+  background-color: rgb(32, 149, 178);
+  color: black;
+  box-shadow: 5px 10px 30px rgba(24, 139 119 0.2);
+}
